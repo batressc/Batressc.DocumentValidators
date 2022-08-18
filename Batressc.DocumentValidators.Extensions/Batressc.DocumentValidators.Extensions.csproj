@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>batressc</Authors>
+    <Description>NIT &amp; DUI validator for El Salvador</Description>
+    <PackageProjectUrl>https://github.com/batressc/Batressc.DocumentValidators</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/batressc/Batressc.DocumentValidators</RepositoryUrl>
+    <PackageTags>dui; nit; el salvador</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
