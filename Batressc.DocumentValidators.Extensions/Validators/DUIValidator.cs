@@ -32,7 +32,7 @@ namespace Batressc.DocumentValidators.Extensions.Validators {
             int validator = duiDigits.Last();
             // Processing
             int summatory = duiDigits.Take(8).Select(x => x * counter--).Sum();
-            return validator == 10 - (summatory % 10);
+            return validator == (10 - (summatory % 10)) % 10;
         }
     }
 }

@@ -1,5 +1,9 @@
 ﻿# Verificación de DUI y NIT para El Salvador
 
+## Actualización crítica (22/08/2022)
+
+>Se reportó que los DUIs terminados en cero no se validaban correctamente. Se realizó la corrección correspondiente. Muchas gracias a **Saúl Valdez.** 
+
 Esta librería de clases contiene dos métodos de extensión para el tipo de dato `System.String` que permite validar si el NIT o el DUI poseen el formato correcto y si sus dígitos son válidos, determinando el dígito validador.
 
 A continuación se presenta código de una aplicación de consola (.NET 6) donde se verifica un DUI y NIT:
